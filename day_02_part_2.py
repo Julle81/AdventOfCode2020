@@ -52,10 +52,7 @@ while pass_through < len(passwords):
         password_valid = False
 
     if( password_valid ):
-        if( valid_passwords == 0):
-            valid_passwords = 1 
-        else:
-            valid_passwords += 1
+        valid_passwords += 1
 
     pass_through += 1
 
